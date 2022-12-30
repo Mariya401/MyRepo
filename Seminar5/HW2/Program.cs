@@ -19,3 +19,24 @@ foreach (int num in array)
     }
 }
 Console.WriteLine($"Сумма элементов, стоящих на нечётных позициях: {sum}");
+
+/*
+// Решение Габиля
+//Задайте одномерный массив, заполненный случайными числами. 
+//Найдите сумму элементов, стоящих на нечётных позициях.
+
+ startArray = GetArray(6, 0, 999);
+Console.WriteLine(String.Join(" ", startArray));
+Console.WriteLine($"Сумма элементов на нечетных позициях = {GetSumOdd(startArray)}");
+
+
+int GetSumOdd(int[] array)
+{
+    int sum = 0;
+    for (int i = 0; i < array.Length; i++)
+    {
+        if (i % 2 == 1) sum += array[i];
+    }
+    return sum;
+}
+*/
